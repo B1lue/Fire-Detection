@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
 
-    static final int SIZE = 5;
+    static final int SIZE = 30;
     static char[][] forest = new char[SIZE][SIZE];
     static Lock lock = new ReentrantLock();
     static Condition[][] conditions = new Condition[SIZE][SIZE];
